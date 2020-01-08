@@ -13,6 +13,10 @@
 		554B7D3523B46FD00011CECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554B7D3323B46FD00011CECE /* Main.storyboard */; };
 		554B7D3723B46FD10011CECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554B7D3623B46FD10011CECE /* Assets.xcassets */; };
 		554B7D3A23B46FD10011CECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554B7D3823B46FD10011CECE /* LaunchScreen.storyboard */; };
+		554B7D4223B471530011CECE /* EnlargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B7D4123B471530011CECE /* EnlargeViewController.swift */; };
+		554B7D4823B474010011CECE /* acropolice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 554B7D4723B474010011CECE /* acropolice.jpg */; };
+		55D08A6623B59F860038CCD1 /* erecthelion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55D08A6523B59F850038CCD1 /* erecthelion.jpg */; };
+		55D08A6823B59F930038CCD1 /* partenon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55D08A6723B59F930038CCD1 /* partenon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		554B7D3623B46FD10011CECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		554B7D3923B46FD10011CECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554B7D3B23B46FD10011CECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554B7D4123B471530011CECE /* EnlargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargeViewController.swift; sourceTree = "<group>"; };
+		554B7D4723B474010011CECE /* acropolice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = acropolice.jpg; path = "../../../古典古代/ギリシャ/Ryos-greek-world/acropolice.jpg"; sourceTree = "<group>"; };
+		55D08A6523B59F850038CCD1 /* erecthelion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erecthelion.jpg; path = "../../../古典古代/ギリシャ/Ryos-greek-world/erecthelion.jpg"; sourceTree = "<group>"; };
+		55D08A6723B59F930038CCD1 /* partenon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = partenon.jpg; path = "../../../古典古代/ギリシャ/Ryos-greek-world/partenon.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,12 @@
 				554B7D2D23B46FD00011CECE /* AppDelegate.swift */,
 				554B7D2F23B46FD00011CECE /* SceneDelegate.swift */,
 				554B7D3123B46FD00011CECE /* ViewController.swift */,
+				554B7D4123B471530011CECE /* EnlargeViewController.swift */,
 				554B7D3323B46FD00011CECE /* Main.storyboard */,
 				554B7D3623B46FD10011CECE /* Assets.xcassets */,
+				55D08A6723B59F930038CCD1 /* partenon.jpg */,
+				55D08A6523B59F850038CCD1 /* erecthelion.jpg */,
+				554B7D4723B474010011CECE /* acropolice.jpg */,
 				554B7D3823B46FD10011CECE /* LaunchScreen.storyboard */,
 				554B7D3B23B46FD10011CECE /* Info.plist */,
 			);
@@ -127,6 +139,9 @@
 			files = (
 				554B7D3A23B46FD10011CECE /* LaunchScreen.storyboard in Resources */,
 				554B7D3723B46FD10011CECE /* Assets.xcassets in Resources */,
+				55D08A6823B59F930038CCD1 /* partenon.jpg in Resources */,
+				554B7D4823B474010011CECE /* acropolice.jpg in Resources */,
+				55D08A6623B59F860038CCD1 /* erecthelion.jpg in Resources */,
 				554B7D3523B46FD00011CECE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				554B7D3223B46FD00011CECE /* ViewController.swift in Sources */,
 				554B7D2E23B46FD00011CECE /* AppDelegate.swift in Sources */,
 				554B7D3023B46FD00011CECE /* SceneDelegate.swift in Sources */,
+				554B7D4223B471530011CECE /* EnlargeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
