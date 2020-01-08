@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5510885C23C5FD70009DDEA4 /* acropolice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5510885B23C5FD70009DDEA4 /* acropolice.jpg */; };
-		5510885E23C5FD79009DDEA4 /* partenon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5510885D23C5FD79009DDEA4 /* partenon.jpg */; };
-		5510886023C5FD82009DDEA4 /* erecthelion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5510885F23C5FD82009DDEA4 /* erecthelion.jpg */; };
 		554B7D2E23B46FD00011CECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B7D2D23B46FD00011CECE /* AppDelegate.swift */; };
 		554B7D3023B46FD00011CECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B7D2F23B46FD00011CECE /* SceneDelegate.swift */; };
 		554B7D3223B46FD00011CECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B7D3123B46FD00011CECE /* ViewController.swift */; };
@@ -17,12 +15,12 @@
 		554B7D3723B46FD10011CECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554B7D3623B46FD10011CECE /* Assets.xcassets */; };
 		554B7D3A23B46FD10011CECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554B7D3823B46FD10011CECE /* LaunchScreen.storyboard */; };
 		554B7D4223B471530011CECE /* EnlargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B7D4123B471530011CECE /* EnlargeViewController.swift */; };
+		55FFBAC723C60CA6005C4091 /* partenon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55FFBAC623C60CA6005C4091 /* partenon.jpg */; };
+		55FFBAC923C60CAD005C4091 /* erecthelion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55FFBAC823C60CAD005C4091 /* erecthelion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5510885B23C5FD70009DDEA4 /* acropolice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acropolice.jpg; sourceTree = "<group>"; };
-		5510885D23C5FD79009DDEA4 /* partenon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = partenon.jpg; path = "../../../古典古代/ギリシャ/Ryos-greek-world/partenon.jpg"; sourceTree = "<group>"; };
-		5510885F23C5FD82009DDEA4 /* erecthelion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erecthelion.jpg; path = "../../../古典古代/ギリシャ/Ryos-greek-world/erecthelion.jpg"; sourceTree = "<group>"; };
 		554B7D2A23B46FD00011CECE /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554B7D2D23B46FD00011CECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		554B7D2F23B46FD00011CECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		554B7D3923B46FD10011CECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554B7D3B23B46FD10011CECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554B7D4123B471530011CECE /* EnlargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargeViewController.swift; sourceTree = "<group>"; };
+		55FFBAC623C60CA6005C4091 /* partenon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = partenon.jpg; sourceTree = "<group>"; };
+		55FFBAC823C60CAD005C4091 /* erecthelion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = erecthelion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 				554B7D3123B46FD00011CECE /* ViewController.swift */,
 				554B7D4123B471530011CECE /* EnlargeViewController.swift */,
 				554B7D3323B46FD00011CECE /* Main.storyboard */,
-				5510885D23C5FD79009DDEA4 /* partenon.jpg */,
-				5510885F23C5FD82009DDEA4 /* erecthelion.jpg */,
+				55FFBAC623C60CA6005C4091 /* partenon.jpg */,
+				55FFBAC823C60CAD005C4091 /* erecthelion.jpg */,
 				5510885B23C5FD70009DDEA4 /* acropolice.jpg */,
 				554B7D3623B46FD10011CECE /* Assets.xcassets */,
 				554B7D3823B46FD10011CECE /* LaunchScreen.storyboard */,
@@ -138,10 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				554B7D3A23B46FD10011CECE /* LaunchScreen.storyboard in Resources */,
-				5510885E23C5FD79009DDEA4 /* partenon.jpg in Resources */,
+				55FFBAC723C60CA6005C4091 /* partenon.jpg in Resources */,
 				554B7D3723B46FD10011CECE /* Assets.xcassets in Resources */,
 				5510885C23C5FD70009DDEA4 /* acropolice.jpg in Resources */,
-				5510886023C5FD82009DDEA4 /* erecthelion.jpg in Resources */,
+				55FFBAC923C60CAD005C4091 /* erecthelion.jpg in Resources */,
 				554B7D3523B46FD00011CECE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
