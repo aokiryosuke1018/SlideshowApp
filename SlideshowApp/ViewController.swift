@@ -92,7 +92,13 @@ class ViewController: UIViewController {
         let enlargeViewController:EnlargeViewController = segue.destination as! EnlargeViewController
         // 遷移先の画像を指定
             enlargeViewController.enlargeViewImage = imageView.image!
-        
+        // スライドショーはストップ
+        if self.timer != nil{
+        self.timer.invalidate()
+        self.timer = nil
+        // この時ボタンラベルは「停止」になる
+        self.buttonLabel.setTitle("再生",for: .normal)
+        }
     }
     
     
