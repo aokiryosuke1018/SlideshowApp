@@ -14,17 +14,20 @@ class ViewController: UIViewController {
     var imageArray = [UIImage(named:"partenon.jpg"),UIImage(named: "erecthelion.jpg"),UIImage(named:"acropolice.jpg")]
     var timer: Timer! // timer.invalidage()がインスタンスメソッドなので準備
     
+    @IBOutlet weak var buttonLabel: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         // 最初はpartenonが表示される
         imageView.image = imageArray[0]
+        
     }
     
-    // ひとまず名前を使って対応
     // 進むを押して画像を変える
     @IBAction func forward(_ sender: Any) {
+        if timer == nil{
         if imageView.image == imageArray[0]{
             imageView.image =  imageArray[1]
         }else if imageView.image == imageArray[1]{
@@ -32,16 +35,19 @@ class ViewController: UIViewController {
         }else{
             imageView.image = imageArray[0]
         }
+        }
     }
     
     // 戻るを押して１つ前の画像に戻る
     @IBAction func back(_ sender: Any) {
+        if timer == nil{
         if imageView.image == imageArray[0]{
             imageView.image =  imageArray[2]
         }else if imageView.image == imageArray[1]{
             imageView.image = imageArray[0]
         }else{
             imageView.image = imageArray[1]
+        }
         }
     }
 
@@ -56,11 +62,14 @@ class ViewController: UIViewController {
             selector: #selector(self.repeatImage),//repeatImage関数に委ねる
             userInfo: nil,
             repeats: true)
+            buttonLabel.setTitle("停止",for: .normal)
         }else{
             timer.invalidate()
             timer = nil
+            buttonLabel.setTitle("再生",for: .normal)
         }
     }
+    
     
     @objc func repeatImage(){
         if imageView.image == imageArray[0]{
@@ -71,6 +80,7 @@ class ViewController: UIViewController {
             imageView.image = imageArray[0]
         }
     }
+    
     
     // 一応接続はしたもののprepareメソッドで対応できるため意味はない
     @IBAction func imageClick(_ sender: Any) {
